@@ -16,6 +16,22 @@ $ create-react-app [nome]
 ```
 #
 
+#### Podemos começar teremos essas estrutura
+```
+./
+    /AppName [AppFolder]
+    README.md
+```
+
+#### Dentro da AppFolder - Rodando o APP
+```bash
+cd /AppFolder
+
+npm start
+
+Acesse no Broser: http://localhost:3000
+```
+
 #### Após criar o app podemos remover alguns arquivos.
 ```
 /src
