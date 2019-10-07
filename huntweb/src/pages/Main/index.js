@@ -63,7 +63,7 @@ export default class Main extends Component {
                 <div className="pagination">
                     <button disabled={ page === 1 } onClick={ this.prevPage }>Anterior</button>
                     <p>{`Página ${page}/${paginate.pages}`}</p>
-                    <button disabeld={ page === paginate.pages } onClick={ this.nextPage }>Próximo</button>
+                    <button disabled={ page === paginate.pages } onClick={ this.nextPage }>Próximo</button>
                 </div>
             </div>
         );
