@@ -39,3 +39,35 @@
     background: #da552f;
     color: #ffffff;
 }
+
+.products-list .pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.products-list .pagination button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #da552f;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.products-list .pagination p {
+    display: flex;
+    color: #999999;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-list .pagination button:hover {
+    opacity: 0.7;
+}
+
+.products-list .pagination button[disabled] {
+    opacity: 0.3;
+}
