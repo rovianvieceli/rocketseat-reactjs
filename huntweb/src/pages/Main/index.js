@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import api from '../../services/api';
 
 import './style.css';
@@ -57,7 +58,8 @@ export default class Main extends Component {
                     <article key={product._id}>
                         <strong>{product.title}</strong>
                         <p>{product.description}</p>
-                        {/* <a href="">Acessar</a> */}
+
+                        <Link to={`/products/${product._id}`}>Acessar</Link>
                     </article>
                 ))}
                 <div className="pagination">
